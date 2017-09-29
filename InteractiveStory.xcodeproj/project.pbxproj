@@ -28,6 +28,9 @@
 		CA2E972C1F6FA03C00836E17 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		CA2E972E1F70881A00836E17 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		CA2E97301F70EE1100836E17 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		CA7724DD1F7E40C200A47071 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		CA7724DE1F7E40C200A47071 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		CA7724DF1F7E40C200A47071 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		CA2E97191F6F9A9000836E17 /* InteractiveStory */ = {
 			isa = PBXGroup;
 			children = (
+				CA7724DC1F7E405800A47071 /* Resources */,
 				CA2E971A1F6F9A9000836E17 /* AppDelegate.swift */,
 				CA2E971C1F6F9A9000836E17 /* ViewController.swift */,
 				CA2E972C1F6FA03C00836E17 /* Story.swift */,
@@ -71,6 +75,16 @@
 				CA2E97261F6F9A9000836E17 /* Info.plist */,
 			);
 			path = InteractiveStory;
+			sourceTree = "<group>";
+		};
+		CA7724DC1F7E405800A47071 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA7724DE1F7E40C200A47071 /* HappyEnding.wav */,
+				CA7724DF1F7E40C200A47071 /* Ominous.wav */,
+				CA7724DD1F7E40C200A47071 /* PageTurn.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +330,7 @@
 				CA2E972B1F6F9A9000836E17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
